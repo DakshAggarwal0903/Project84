@@ -1,14 +1,14 @@
 canvas = document.getElementById("myCanvas");
 ctx=canvas.getContext("2d");
-car1wid = 120;
-car1height = 70;
+car1wid = 50;
+car1height = 100;
 car1img = "car1.png"
 car1_x = 10;
 car1_y = 10;
 background_img = "Bg.jpg"
 
-car1wid = 120;
-car1height = 70;
+car2wid =50;
+car2height = 100;
 car2img = "car2.png"
 car2_x = 10;
 car2_y = 100;
@@ -29,7 +29,7 @@ function screenload(){
 function uploadcar1(){
     ctx.drawImage(nimgc1,car1_x, car1_y ,car1height, car1wid);
 }
-function uploadcar1(){
+function uploadcar2(){
     ctx.drawImage(nimgc2, car2_x, car2_y, car2height, car2wid);
 }
 window.addEventListener("keydown",kdn);
@@ -69,3 +69,4 @@ if(keyPressed == '68'){
     console.log("D key");
 }
 }
+
